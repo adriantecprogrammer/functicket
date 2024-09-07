@@ -16,10 +16,11 @@ const loadEvents = () => {
         eventosAux.value = storedEvents;
         eventos.value = eventosAux.value.filter(evento => evento.categoria === "slider");
 
-
         if (eventos.value.length > 0) {
             iniciarSlider();
         }
+    } else {
+
     }
 };
 
@@ -38,7 +39,7 @@ const goToAdmin = () => {
 </script>
 
 <template>
-    <div class="w-auto h-screen  div-gradiente">
+    <div class="w-screen h-screen  div-gradiente">
         <div class=" w-screen h-14 p-4 grid grid-cols-2">
             <img src="/src/assets/funticket logo.svg" class="w-40 h-16 ml-20" />
             <button @click="goToAdmin"

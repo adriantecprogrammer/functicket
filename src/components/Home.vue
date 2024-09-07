@@ -2,12 +2,16 @@
 import Header from './Header.vue';
 import EventosRecomendados from './EventosRecomendados.vue';
 import TodosLosEventos from './TodosLosEventos.vue';
+import { onMounted } from 'vue'
+
+
+
 </script>
 
 
 <template>
     <div>
-        <Header/>
+        <Header />
         <EventosRecomendados />
         <TodosLosEventos />
 

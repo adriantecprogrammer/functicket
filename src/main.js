@@ -1,7 +1,7 @@
 import "./style.css";
 import App from "./App.vue";
 import PrimeVue from "primevue/config";
-import { createApp } from "vue";
+import { createApp, onMounted } from "vue";
 import InputText from "primevue/inputtext";
 import Button from "primevue/button";
 import Menubar from "primevue/menubar";
@@ -15,14 +15,11 @@ import CascadeSelect from "primevue/cascadeselect";
 
 const app = createApp(App);
 
-
 app.use(PrimeVue, {
   theme: {
     preset: Aura,
   },
 });
-
-
 
 app.component("InputText", InputText);
 app.component("Button", Button);
@@ -35,3 +32,5 @@ app.component("CascadeSelect", CascadeSelect);
 
 app.use(router);
 app.mount("#app");
+
+
