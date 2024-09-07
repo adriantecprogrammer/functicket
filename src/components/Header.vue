@@ -71,9 +71,10 @@ const goToAdmin = () => {
 <style scoped>
 .boton-panel {
     margin-left: 670px;
-    border-radius: 64px;    
+    border-radius: 64px;
 }
-.boton-panel:hover{
+
+.boton-panel:hover {
     background-color: black;
 }
 
