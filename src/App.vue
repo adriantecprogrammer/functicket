@@ -1,7 +1,7 @@
 <script setup>
 
 import { onMounted } from 'vue'
-/*
+
 onMounted(() => {
   const storedEvents = JSON.parse(localStorage.getItem("eventos"));
   if (!storedEvents || storedEvents.length === 0) {
@@ -116,7 +116,7 @@ onMounted(() => {
     console.log("Eventos precargados en LocalStorage:", eventosIniciales);
   }
 });
-*/
+
 </script>
 
 <template>
