@@ -113,6 +113,7 @@ onMounted(() => {
 
     ];
     localStorage.setItem("eventos", JSON.stringify(eventosIniciales));
+    console.log("Eventos precargados en LocalStorage:", eventosIniciales);
   }
 });
 </script>

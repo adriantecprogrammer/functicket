@@ -4,8 +4,6 @@ import EventosRecomendados from './EventosRecomendados.vue';
 import TodosLosEventos from './TodosLosEventos.vue';
 import { onMounted } from 'vue'
 
-
-
 </script>
 
 
