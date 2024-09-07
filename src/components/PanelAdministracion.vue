@@ -8,7 +8,7 @@ import Dialog from 'primevue/dialog';
 import CascadeSelect from 'primevue/cascadeselect';
 import Select from 'primevue/select';
 
-/*
+
 const eventos = ref([
     {
         fecha: "2024-09-10",
@@ -102,8 +102,8 @@ const eventos = ref([
         categoria: "recomendado"
     }
 ]);
-*/
-const eventos = ref([])
+
+//const eventos = ref([])
 const visible = ref(false);
 const selectedEvent = ref({ nombre: '', artista: '', fecha: '', imagenUrl: '', categoria: '' });
 const editingIndex = ref(null);
